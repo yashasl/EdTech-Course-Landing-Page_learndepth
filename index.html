@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Career Accelerator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">
+           
+             <img src="ld.webp" alt="LearnDepth Logo" class="logo-icon"> 
+            <span>LearnDepth</span>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search courses..." class="search-bar">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Courses</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="themeToggle" class="theme-toggle">🌙</button></li>
+            <li><a href="#" class="nav-btn">Enroll Now</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Complete Tech Career Accelerator Program</h1>
+        <p>Master Web Development, Data Science, UI/UX & AI in one structured program.</p>
+        <a href="#" class="cta-btn">Enroll Now</a>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <h2>About the Course</h2>
+    <p>
+        This comprehensive tech program is designed to help students and professionals
+        build industry-ready skills in Web Development, Data Science, UI/UX Design,
+        and Artificial Intelligence through real-world projects and mentorship.
+    </p>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="section light-bg">
+    <h2>Our Courses</h2>
+    <div class="card-container" id="courseContainer">
+        <div class="card" data-course="web development">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Master HTML, CSS, JavaScript, React, Node.js and build full-stack applications.</p>
+        </div>
+        <div class="card" data-course="data science">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Data Science">
+            <h3>Data Science</h3>
+            <p>Learn Python, pandas, machine learning, and data visualization techniques.</p>
+        </div>
+        <div class="card" data-course="ui ux design">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop" alt="UI/UX Design">
+            <h3>UI/UX Design</h3>
+            <p>Create stunning user interfaces with Figma, Adobe XD, and design thinking.</p>
+        </div>
+        <div class="card" data-course="artificial intelligence">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop" alt="AI">
+            <h3>Artificial Intelligence</h3>
+            <p>Deep learning, neural networks, NLP, and AI model development.</p>
+        </div>
+        <div class="card" data-course="cloud computing">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop" alt="Cloud Computing">
+            <h3>Cloud Computing</h3>
+            <p>AWS, Azure, Google Cloud - master cloud infrastructure and deployment.</p>
+        </div>
+        <div class="card" data-course="cybersecurity">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop" alt="Cybersecurity">
+            <h3>Cybersecurity</h3>
+            <p>Ethical hacking, network security, and protecting digital assets.</p>
+        </div>
+        <div class="card" data-course="mobile development">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop" alt="Mobile Development">
+            <h3>Mobile Development</h3>
+            <p>Build iOS and Android apps with React Native, Flutter, and Swift.</p>
+        </div>
+        <div class="card" data-course="blockchain">
+            <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=250&fit=crop" alt="Blockchain">
+            <h3>Blockchain</h3>
+            <p>Smart contracts, cryptocurrency, Web3, and decentralized applications.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section id="benefits" class="section">
+    <h2>Why Join This Course?</h2>
+    <div class="benefits-grid">
+        <div class="benefit-card">
+            <div class="benefit-icon">🎯</div>
+            <h3>Industry-Ready Skills</h3>
+            <p>Learn cutting-edge technologies used by top tech companies worldwide</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">💼</div>
+            <h3>Real-World Projects</h3>
+            <p>Build portfolio-worthy projects that impress employers</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">👨‍🏫</div>
+            <h3>Expert Mentorship</h3>
+            <p>Get guidance from industry professionals with years of experience</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">🏆</div>
+            <h3>Certification</h3>
+            <p>Earn recognized certificates to boost your career prospects</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Lifetime Access</h3>
+            <p>Access course materials and updates forever at no extra cost</p>
+        </div>
+        <div class="benefit-card">
+            <div class="benefit-icon">🤝</div>
+            <h3>Community Support</h3>
+            <p>Join a thriving community of learners and professionals</p>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action -->
+<section class="cta-section">
+    <div class="cta-content">
+        <div class="cta-left">
+            <h2>Start Your Tech Career Today</h2>
+            <p>Join thousands of students who have transformed their careers with our comprehensive tech programs</p>
+            <div class="cta-stats">
+                <div class="stat">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Success Rate</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+            </div>
+        </div>
+        <div class="cta-right">
+            <a href="#" class="cta-btn-large">Enroll Now</a>
+            <p class="cta-note">🎁 Limited time offer: Get 30% off!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section light-bg">
+    <h2>Get In Touch</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-card">
+                <div class="info-icon">📧</div>
+                <h3>Email Us</h3>
+                <p>support@techcareer.com</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📱</div>
+                <h3>Call Us</h3>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">📍</div>
+                <h3>Visit Us</h3>
+                <p>123 Tech Street, Silicon Valley</p>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="form-row">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit">Send Message ✉️</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 LearnDepth. All rights reserved.</p>
+</footer>
+
+<!-- Chatbot -->
+<div class="chatbot-container" id="chatbot">
+    <div class="chatbot-header">
+        <span>🤖 LearnDepth Assistant</span>
+        <button class="chatbot-close" id="chatbotClose">×</button>
+    </div>
+    <div class="chatbot-messages" id="chatMessages">
+        <div class="bot-message">Hi! How can I help you today? 👋</div>
+    </div>
+    <div class="chatbot-input">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button id="chatSend">➤</button>
+    </div>
+</div>
+<button class="chatbot-toggle" id="chatbotToggle">💬</button>
+
+<script>
+// Theme Toggle
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    themeToggle.textContent = body.classList.contains('light-mode') ? '🌞' : '🌙';
+});
+
+// Search Functionality
+const searchInput = document.getElementById('searchInput');
+const courseContainer = document.getElementById('courseContainer');
+const cards = courseContainer.querySelectorAll('.card');
+
+searchInput.addEventListener('input', (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    
+    cards.forEach(card => {
+        const courseName = card.getAttribute('data-course');
+        if (courseName.includes(searchTerm)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
+
+// Chatbot Functionality
+const chatbotToggle = document.getElementById('chatbotToggle');
+const chatbot = document.getElementById('chatbot');
+const chatbotClose = document.getElementById('chatbotClose');
+const chatSend = document.getElementById('chatSend');
+const chatInput = document.getElementById('chatInput');
+const chatMessages = document.getElementById('chatMessages');
+
+chatbotToggle.addEventListener('click', () => {
+    chatbot.classList.add('active');
+    chatbotToggle.style.display = 'none';
+});
+
+chatbotClose.addEventListener('click', () => {
+    chatbot.classList.remove('active');
+    chatbotToggle.style.display = 'flex';
+});
+
+function addMessage(message, isBot = false) {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = isBot ? 'bot-message' : 'user-message';
+    messageDiv.textContent = message;
+    chatMessages.appendChild(messageDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function getBotResponse(userMessage) {
+    const msg = userMessage.toLowerCase();
+    if (msg.includes('course') || msg.includes('learn')) {
+        return 'We offer 8 amazing courses including Web Development, Data Science, AI, and more! Check out our Courses section.';
+    } else if (msg.includes('price') || msg.includes('cost')) {
+        return 'We have special offers running! Click "Enroll Now" to see our pricing plans.';
+    } else if (msg.includes('contact') || msg.includes('support')) {
+        return 'You can reach us at support@learndepth.com or call +1 (555) 123-4567. We\'re here to help!';
+    } else if (msg.includes('hi') || msg.includes('hello')) {
+        return 'Hello! Welcome to LearnDepth. How can I assist you today?';
+    } else {
+        return 'Thanks for your message! Our team will get back to you soon. Feel free to explore our courses!';
+    }
+}
+
+chatSend.addEventListener('click', () => {
+    const message = chatInput.value.trim();
+    if (message) {
+        addMessage(message, false);
+        chatInput.value = '';
+        setTimeout(() => {
+            addMessage(getBotResponse(message), true);
+        }, 500);
+    }
+});
+
+chatInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        chatSend.click();
+    }
+});
+</script>
+
+</body>
+</html>
